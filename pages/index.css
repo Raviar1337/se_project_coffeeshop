@@ -2,7 +2,7 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  font-family: "Noto Serif", "Times New Roman", serif;
+
   font-family: "Inter", Arial, sans-serif;
 
   font-size: 16px;
@@ -37,6 +37,11 @@
 }
 
 .nav__links {
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 20px;
   display: flex;
 
   list-style: none;
@@ -54,11 +59,33 @@
   padding: 0;
   max-width: 729px;
   margin-top: 202px;
+
+  font-weight: 500;
+
+  font-size: 60px;
+
+  line-height: 72px;
 }
+
+.header__span-accent {
+  font-family: "Noto Serif", "Times New Roman", serif;
+
+  font-style: italic;
+
+  font-weight: normal;
+
+  color: #2f80ed;
+}
+
 .header__description {
   max-width: 683px;
   margin: 0;
   margin-top: 28px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+
+  font-size: 20px;
+
+  line-height: 30px;
 }
 
 .header__image {
@@ -67,4 +94,25 @@
   position: absolute;
   top: 124px;
   right: 5px;
+}
+.header__footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.header__paragraph {
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 20px;
+
+  color: #838383;
+}
+
+/* This is your bs code for the last 2 items in the header footer, make sure to fix it */
+.bottom__line {
+  display: flex;
+  justify-content: space-between;
 }
