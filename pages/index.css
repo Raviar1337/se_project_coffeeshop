@@ -176,6 +176,8 @@
 }
 
 .recipes__video-caption {
+  display: flex;
+  justify-content: space-between;
   font-family: "Inter";
 
   font-style: normal;
@@ -185,4 +187,14 @@
   font-size: 20px;
 
   line-height: 30px;
+}
+
+.recipes__video-caption_type_description {
+  margin: 0;
+  max-width: 50px;
+}
+
+.recipes__video-caption_type_duration {
+  margin: 0;
+  max-width: 50px;
 }
