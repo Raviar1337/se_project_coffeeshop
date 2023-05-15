@@ -98,8 +98,7 @@
 }
 .header__footer {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .header__paragraph {
@@ -112,10 +111,8 @@
   color: #838383;
 }
 
-/* This is your bs code for the last 2 items in the header footer, make sure to fix it */
-.bottom__line {
-  display: flex;
-  justify-content: space-between;
+.header__footer_info_address {
+  align-self: flex-end;
 }
 
 .recipes {
