@@ -111,6 +111,11 @@
   color: #838383;
 }
 
+.header__footer_info_schedule {
+  display: flex;
+  flex-direction: column;
+}
+
 .header__footer_info_address {
   align-self: flex-end;
 }
