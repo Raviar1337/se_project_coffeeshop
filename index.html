@@ -127,7 +127,61 @@
           </div>
           <!-- you put extra classes above this line because you did not know how to nest the divs, make sure to fix -->
         </section>
-        <section class="reservation" id="book_a_table"></section>
+        <section class="reservation" id="book_a_table">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label form__label_type_name"
+                >Name *</label
+              >
+              <input
+                type="text"
+                class="form__input form__input_type_name"
+                id="name"
+                placeholder="Name Surname"
+              />
+              <label
+                for="number-of-guests"
+                class="form__label form__label_type_number-of-guests"
+                >Number of guests *</label
+              >
+              <input
+                type="number"
+                min="1"
+                max="8"
+                id="number-of-guests"
+                class="form__input form__input_type_number-of-guests"
+                placeholder="1-8"
+              />
+              <label
+                for="date-and-time"
+                class="form__label form__label_type_date-and-time"
+                >Date & time *</label
+              >
+              <input
+                type="datetime-local"
+                id="date-and-time"
+                class="form__input form__input_type_date-and-time"
+              />
+              <label
+                for="your-email"
+                class="form__label form__label_type_your-email"
+                >Your email *</label
+              >
+              <input
+                type="email"
+                id="your-email"
+                class="form__input form__input_type_your-email"
+                placeholder="email@email.com"
+              />
+            </fieldset>
+            <button class="form__button" type="submit">Book a table</button>
+            <label>
+              <input type="checkbox" />
+              I agree with the terms of use
+            </label>
+          </form>
+        </section>
         <section class="menue" id="menue"></section>
 
         <section class="about" id="contacts"></section>
