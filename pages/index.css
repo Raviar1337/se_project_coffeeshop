@@ -235,7 +235,7 @@
   flex-direction: column;
 }
 
-.form__fieldset {
+.reservation__form_fieldset {
   margin: 0;
   padding: 0;
   display: flex;
