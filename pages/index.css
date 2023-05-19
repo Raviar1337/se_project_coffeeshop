@@ -235,7 +235,7 @@
   flex-direction: column;
 }
 
-.reservation__form_fieldset {
+.form__fieldset {
   margin: 0;
   padding: 0;
   display: flex;
@@ -244,14 +244,14 @@
   border: none;
 }
 
-.reservation__form_input {
+.form__input {
   width: 385px;
   height: 50px;
   margin-top: 8px;
   margin-bottom: 32px;
 }
 
-.reservation__form_label {
+.form__label {
   font-family: Inter;
 
   font-style: normal;
@@ -263,7 +263,7 @@
   line-height: 20px;
 }
 
-.reservation__form_button {
+.form__button {
   margin: 0;
   border: none;
 
@@ -290,7 +290,7 @@
   align-self: center;
 }
 
-.reservation__form_checkbox {
+.form__checkbox {
   width: 20px;
   height: 20px;
 }
