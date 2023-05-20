@@ -13,6 +13,4 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
-
-well if i must
+An interactive menue that allows you to build a drink and tell you the cost in advance
