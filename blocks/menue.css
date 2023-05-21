@@ -1,0 +1,32 @@
+.menue {
+  margin: 0;
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menue__title {
+}
+
+.menue__subtitle {
+}
+
+.menue__cards {
+}
+
+.card {
+}
+
+.card__title {
+}
+
+.card__list {
+}
+
+.card__list-item {
+}
+
+.card__list-divider {
+}
