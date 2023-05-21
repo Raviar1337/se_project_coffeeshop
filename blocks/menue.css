@@ -1,5 +1,6 @@
 .menue {
   padding: 0;
+  margin: 0;
   background-color: #fff;
   background-image: url(../images/background_menu.svg);
   background-position: center;
@@ -16,33 +17,79 @@
   margin-bottom: 24px;
   max-width: 780px;
   display: flex;
-  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 
 .menue__subtitle {
   margin: 0;
   margin-bottom: 100px;
   max-width: 780px;
+  display: flex;
+  text-align: center;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .menue__cards {
   display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  gap: 100px;
+  width: 1180px;
 }
 
 .card {
   width: 540px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card__title {
+  margin: 0;
+  margin-bottom: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.card__baked-goods {
+  margin: auto;
 }
 
 .card__list {
   padding: 0;
+  margin: 0;
   list-style: none;
 }
 
 .card__list-item {
+  margin: 0;
+  margin-bottom: 16px;
+  display: flex;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list-item:last-of-type {
+  margin-bottom: 0;
 }
 
 .card__list-divider {
+  flex-grow: 1;
+  border-style: dotted;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
