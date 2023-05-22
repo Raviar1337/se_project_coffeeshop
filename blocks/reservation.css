@@ -81,6 +81,10 @@
   color: #fff;
 }
 
+.form__button:hover {
+  opacity: 0.7;
+}
+
 .form__label_type_terms {
   margin: 0;
   margin-bottom: 120px;
