@@ -137,6 +137,7 @@
                 class="form__input form__input_type_name"
                 id="name"
                 placeholder="Name Surname"
+                required
               />
               <label
                 for="number-of-guests"
@@ -150,6 +151,7 @@
                 id="number-of-guests"
                 class="form__input form__input_type_number-of-guests"
                 placeholder="1-8"
+                required
               />
               <label
                 for="date-and-time"
@@ -160,6 +162,7 @@
                 type="datetime-local"
                 id="date-and-time"
                 class="form__input form__input_type_date-and-time"
+                required
               />
               <label
                 for="your-email"
@@ -171,11 +174,12 @@
                 id="your-email"
                 class="form__input form__input_type_your-email"
                 placeholder="email@email.com"
+                required
               />
             </fieldset>
             <button class="form__button" type="submit">Book a table</button>
             <label class="form__label form__label_type_terms">
-              <input type="checkbox" class="form__checkbox" />
+              <input type="checkbox" class="form__checkbox" required />
               I agree with the terms of use
             </label>
           </form>
@@ -287,7 +291,11 @@
       </main>
       <footer class="footer">
         <div class="footer__content">
-          <img src="images/practicum_logo.svg" class="footer__logo" />
+          <img
+            src="images/practicum_logo.svg"
+            alt="Practicum Logo"
+            class="footer__logo"
+          />
           <div class="footer__social-content">
             <h3 class="footer__social-heading">Social media</h3>
             <ul class="footer__list">
