@@ -23,6 +23,7 @@
   font-size: 60px;
   line-height: 72px;
   font-family: "Inter", Arial, sans-serif;
+  z-index: 1;
 }
 
 .header__span-accent {
@@ -39,6 +40,7 @@
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
+  z-index: 1;
 }
 
 .header__image {
@@ -54,6 +56,7 @@
   justify-content: space-between;
   margin-top: auto;
   font-family: "Inter", Arial, sans-serif;
+  z-index: 1;
 }
 
 .header__paragraph {
