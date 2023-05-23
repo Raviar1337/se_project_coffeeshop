@@ -22,6 +22,7 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .header__span-accent {
@@ -52,6 +53,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: auto;
+  font-family: "Inter", Arial, sans-serif;
 }
 
 .header__paragraph {
